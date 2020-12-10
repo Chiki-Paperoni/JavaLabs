@@ -2,7 +2,7 @@ package com.company;
 
 public class TeaPot extends Dishes{
 
-    TeaPot(String name, Material m,int volume) {
+    public TeaPot(String name, Material m, int volume) {
         super(name, m,volume);
     }
 

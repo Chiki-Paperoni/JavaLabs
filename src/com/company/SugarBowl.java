@@ -4,7 +4,7 @@ public class SugarBowl extends Dishes{
 
 
 
-    SugarBowl(String name, Material m,int volume) {
+    public SugarBowl(String name, Material m, int volume) {
         super(name, m,volume);
         this.isEmpty = false;
 

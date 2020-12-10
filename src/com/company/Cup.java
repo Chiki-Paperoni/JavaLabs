@@ -1,9 +1,9 @@
 package com.company;
 
 public class Cup extends Dishes{
-    protected boolean withSugar;
+    public boolean withSugar;
 
-    Cup(String name, Material m,int volume) {
+    public Cup(String name, Material m, int volume) {
         super(name, m,volume);
         this.withSugar =false;
     }
