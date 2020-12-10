@@ -9,10 +9,22 @@ public class Main {
 //test changes
     public static void main(String[] args) {
 
+    Lab4Example l4 = new Lab4Example();
+    l4.example();
+
+    }
+
+
+
+
+
+    private static void Lab1Example() {
         ArrayList<Dishes> service = new ArrayList<>();
+
         TeaPot pot = new TeaPot("TeaPot0",Material.GOLD,50);
         SugarBowl bowl = new SugarBowl("SugarBowl0",Material.SILVER,50);
         Customer c = new Customer();
+
         //bowl.breakDown();
         for (int i = 0;i < 3;i++) {
             service.add(new Cup("Cup" + i,Material.GOLD,10));
@@ -34,6 +46,7 @@ public class Main {
             System.out.println(iter.next());
         }
         //System.out.println(names);
-
     }
+
+
 }

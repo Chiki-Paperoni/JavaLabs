@@ -10,8 +10,8 @@ public abstract class Dishes implements Brekable {
     public String getName() {
         return this.name;
     }
-    public String getMaterial(){
-        return this.material.toString();
+    public Material getMaterial(){
+        return this.material;
     }
     public int getVolume() {
         return this.measure;
